@@ -3,7 +3,7 @@
 %define	modprefix Catalyst
 
 %define version	0.09
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Summary:	Infrastructure plugin for the Catalyst authentication framework
 Name:		%{name}
