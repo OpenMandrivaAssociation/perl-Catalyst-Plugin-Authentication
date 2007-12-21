@@ -22,6 +22,7 @@ BuildRequires:	perl(Class::Inspector)
 BuildRequires:	perl(Test::Exception)
 Requires:	perl >= 5.8.1
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The authentication plugin provides generic user support. It is the basis for
