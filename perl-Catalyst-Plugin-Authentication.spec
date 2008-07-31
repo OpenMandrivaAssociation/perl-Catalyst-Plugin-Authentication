@@ -2,8 +2,8 @@
 %define name	perl-%{realname}
 %define	modprefix Catalyst
 
-%define version	0.09
-%define release	%mkrel 5
+%define version	0.10006
+%define release	%mkrel 1
 
 Summary:	Infrastructure plugin for the Catalyst authentication framework
 Name:		%{name}
@@ -12,7 +12,7 @@ Release:	%{release}
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{realname}/
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{realname}-%{version}.tar.bz2
+Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{realname}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel >= 5.8.1
 %endif
