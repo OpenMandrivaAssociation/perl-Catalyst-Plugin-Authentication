@@ -2,7 +2,7 @@
 %define name	perl-%{realname}
 %define	modprefix Catalyst
 
-%define version	0.10008
+%define version	0.100092
 %define release	%mkrel 1
 
 Summary:	Infrastructure plugin for the Catalyst authentication framework
