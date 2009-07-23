@@ -19,6 +19,7 @@ BuildRequires:	perl(Catalyst) >= 5.49
 BuildRequires:	perl(Catalyst::Plugin::Session) >= 0.10
 BuildRequires:	perl(Class::Inspector)
 BuildRequires:	perl(Test::Exception)
+BuildRequires:	perl(Test::MockObject)
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
 Requires:	perl >= 5.8.1
