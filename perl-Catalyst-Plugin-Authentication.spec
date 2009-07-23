@@ -17,6 +17,7 @@ BuildRequires:	perl-devel >= 5.8.1
 %endif
 BuildRequires:	perl(Catalyst) >= 5.49
 BuildRequires:	perl(Catalyst::Plugin::Session) >= 0.10
+BuildRequires:	perl(Class::Data::Inheritable)
 BuildRequires:	perl(Class::Inspector)
 BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(Test::MockObject)
