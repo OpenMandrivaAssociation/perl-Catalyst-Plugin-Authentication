@@ -1,5 +1,5 @@
 %define upstream_name    Catalyst-Plugin-Authentication
-%define upstream_version 0.10013
+%define upstream_version 0.10014
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
