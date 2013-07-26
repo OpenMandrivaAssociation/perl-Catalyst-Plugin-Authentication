@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-Authentication-0.10016.tar.gz: d4033e8df9fac2cbec2b8f3e64f06f87e1fb8da2
 sources:
-  "Catalyst-Plugin-Authentication-0.10016.tar.gz": d4033e8df9fac2cbec2b8f3e64f06f87e1fb8da2
+  Catalyst-Plugin-Authentication-0.10023.tar.gz: bf4344439828aff668278f9ec863ef2df9554c11
