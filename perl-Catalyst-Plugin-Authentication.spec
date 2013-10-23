@@ -2,7 +2,7 @@
 %define upstream_version 0.10023
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.10023
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 Epoch:		1
 
@@ -10,7 +10,7 @@ Summary:	Infrastructure plugin for the Catalyst authentication framework
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/Catalyst-Plugin-Authentication-0.10023.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/Catalyst-Plugin-Authentication-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst) >= 5.49
@@ -130,5 +130,6 @@ make test
 
 * Fri Dec 16 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 0.04-1mdk
 - Initial MDV RPM
+
 
 
