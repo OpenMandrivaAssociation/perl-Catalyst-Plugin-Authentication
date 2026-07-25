@@ -1,16 +1,16 @@
 %define upstream_name    Catalyst-Plugin-Authentication
-%define upstream_version 0.10023
+%define upstream_version 0.10026
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Epoch:		1
 
 Summary:	Infrastructure plugin for the Catalyst authentication framework
 License:	Artistic/GPL
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/Catalyst-Plugin-Authentication-%{upstream_version}.tar.gz
+URL:		https://github.com/perl-catalyst/Catalyst-Plugin-Authentication
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Catalyst-Plugin-Authentication-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
