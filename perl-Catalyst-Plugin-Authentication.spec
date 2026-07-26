@@ -1,16 +1,14 @@
 %define upstream_name    Catalyst-Plugin-Authentication
-%define upstream_version 0.10026
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.10026
+Release:	2
 Epoch:		1
 
 Summary:	Infrastructure plugin for the Catalyst authentication framework
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		https://github.com/perl-catalyst/Catalyst-Plugin-Authentication
-Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Catalyst-Plugin-Authentication-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Catalyst-Plugin-Authentication-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -28,7 +26,7 @@ both authentication (checking the user is who they claim to be), and
 authorization (allowing the user to do what the system authorises them to do).
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor < /dev/null
@@ -70,9 +68,7 @@ make test
 - adding missing buildrequires:
 - bumping epoch to force new version scheme
 - update to 0.10013
-- using %%perl_convert_version
-
-* Tue Feb 03 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.100092-1mdv2009.1
+- using %0.10026 Tue Feb 03 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.100092-1mdv2009.1
 + Revision: 337001
 - update to new version 0.100092
 
